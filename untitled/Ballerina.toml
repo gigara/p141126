@@ -7,3 +7,8 @@ title = "Untitled"
 
 [build-options]
 sticky = true
+
+[[tool.openapi]]
+id = "helloworldservicegreeting"
+targetModule = "helloworldservicegreeting"
+filePath = ".wso2/helloworldservicegreeting-spec.yaml"

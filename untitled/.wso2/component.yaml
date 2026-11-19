@@ -1,0 +1,9 @@
+schemaVersion: '1.2'
+dependencies:
+  connectionReferences:
+    - name: KB1_knowledge_base
+      resourceRef: service:ai-services/kb1/knowledge-base
+    - name: KB1_knowledge_base1
+      resourceRef: service:ai-services/kb1/knowledge-base
+    - name: Hello_World_Service_greeting
+      resourceRef: service:default/hello-world-service/greeting
